@@ -1,0 +1,38 @@
+
+.wrap{width:100%; height:100%; margin-left:auto; margin-right:auto;}
+.top{width:100%; height:83px; background:url(../../image/main/top_gb.png) repeat-x; position:relative; z-index:2;}
+.top .logo{float:left; width:100%;  position:absolute;}
+.top .logo img{display:inline-block; padding-left:20px; float:left; vertical-align:middle;padding-top:10px;}
+.top .logo h1{float:left; line-height:83px; font-size:36px; color:#FFF; margin-left:10px; font-family:"微软雅黑"; font-weight:normal;}
+.top .user{position:relative; float:right; margin-right:20px; padding-top:5px;}
+.top .user p{display:inline-block; padding:10px; font-size:14px; font-family:"宋体"; color:#FFF; }
+.top .user p a{font-size:14px; font-family:"宋体"; color:#FFF; }
+.top .login_dl button[type="submit"] {position:relative;margin:0 10px 0 10px;font-family:"宋体";border:none;font-size:14px;cursor:pointer;background:url(../../image/main/top_btn.png) no-repeat;color:#fff;width:102px; height:28px;}
+.main{position: absolute;top: 83px;bottom:28px;width: 100%;height: auto;z-index: 1;}
+.main .nav{width:13%;height: 100%;position: absolute;top: 0;left: 0;background:#66a0f2;}
+.main .nav .menu{position: absolute;top: 0;width: 100%;height: 40px;}
+.nav .menu img{width:100%; position:relative; height:43px;}
+.nav .menu_bg{width:100%; position:absolute; height:43px; top:5px;}
+.nav .menu_bg h1{font-size:18px; font-family:"微软雅黑"; color:#FFF; }
+.nav .menu_bg h1 span{display:inline-block; margin-right:20px; float:right;}
+.main .nav .lb{position: absolute;top: 40px;bottom: 0;width: 100%;height: auto;}
+.lb ul{ position:relative; margin-left:10px; }
+.lb ul li{cursor:pointer;margin-top:10px;}
+.li_bg{background:url(../../image/main/nav_lb_bg.png) no-repeat;width:95%; height:28px;  background-size:100% 100%; }
+.nav ul li a{line-height:28px;color:#fff; font-size:14px;}
+.li_bg_current{background:url(../../image/main/nav_xzlb_bg.png) no-repeat; width:95%; height:28px; background-size:100% 100%; }
+.li_bg_a_current{color:#030303 !important;}
+.nav ul li a span{display:inline-block; float:right; padding-right:20px; margin-top:-3px;}
+.nav ul li a span img{ vertical-align:middle;}
+.nav .menu-p{display:block;height:21px;overflow:hidden;padding:6px 0 6px 19px;color:#444;font-size:14px;font-weight:normal;cursor:pointer;}
+.nav .menu-p-current a:link,.nav .menu-p-current a:visited{color:#369;font-weight:bold;}
+.nav .menu-p-current a:hover{color:#ff7300;}
+.nav .erji-current{display:block;}
+.main .nav .lb .menu-list{width: 100%;height: 100%;position: relative;overflow: auto;}
+.nav .erji{display:none;}
+.nav .erji ul{display:block; top:-10px; text-align:left; padding-left:10px;}
+.nav .erji li{padding:2px 0;overflow:hidden; background:none;}
+.nav .erji a:link,.nav .erji a:visited{color:#fff;text-decoration:none;}
+.nav .erji a:hover{color:#ff7300;text-decoration:none; background:none;}
+.nav .erji .current:link,.nav .erji .current:visited{color:#369;font-weight:bold;}
+.nav .erji .current:hover{color:#ff7300;}

@@ -1,0 +1,13 @@
+cnpm init--------初始化package.json
+cnpm install gulp gulp-util gulp-sequence gulp-htmlmin gulp-imagemin imagemin-pngquant imagemin-pngcrush gulp-clean-css gulp-minify-css gulp-concat gulp-rename gulp-uglify jshint gulp-jshint del --save-dev
+        gulp-load-plugins-----------方便模块加载插件
+        gulp-clean-css -----------css压缩  gulp-minify-css(过时了)
+        gulp-uglify-----------js压缩
+        gulp-concat-----------js合并
+        gulp-rename-----------重命名
+        gulp-jshint-----------js代码检测
+
+
+cnpm install gulp-sequence  --save-dev
+
+D:\Ide\idea2017.4.13\ThProjects\github
